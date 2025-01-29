@@ -1,0 +1,1844 @@
+# French translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-30 21:15+0000\n"
+"PO-Revision-Date: 2024-08-24 21:58+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: app/api/auth.py:83 app/api/auth_permissions/auth.py:82
+#: app/api/permissions/auth/auth.py:82
+msgid "Missing authorization tokens"
+msgstr "Jetons d’autorisation manquants"
+
+#: app/api/auth.py:92 app/api/auth_permissions/auth.py:92
+#: app/api/permissions/auth/auth.py:90
+msgid "Invalid token"
+msgstr "Jeton invalide"
+
+#: app/api/fake.py:31
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: app/api/auth_permissions/hierarchy.py:198
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: app/api/auth_permissions/hierarchy.py:199
+msgid "Items"
+msgstr "Articles"
+
+#: app/api/auth_permissions/hierarchy.py:200
+msgid "Stakeholders"
+msgstr "Parties prenantes"
+
+#: app/api/auth_permissions/hierarchy.py:201
+msgid "Clients"
+msgstr ""
+
+#: app/api/auth_permissions/hierarchy.py:202
+msgid "Suppliers"
+msgstr "Fournisseurs"
+
+#: app/api/auth_permissions/hierarchy.py:203
+msgid "Orders"
+msgstr "Ordres"
+
+#: app/api/auth_permissions/hierarchy.py:204
+msgid "Inbound Orders"
+msgstr "Commandes entrantes"
+
+#: app/api/auth_permissions/hierarchy.py:207
+msgid "Outbound Orders"
+msgstr "Commandes sortantes"
+
+#: app/api/auth_permissions/hierarchy.py:210
+msgid "Invoices"
+msgstr "Factures"
+
+#: app/api/auth_permissions/hierarchy.py:212
+msgid "Settings"
+msgstr "Paramètres"
+
+#: app/api/auth_permissions/hierarchy.py:213
+msgid "Companies"
+msgstr "Entreprises"
+
+#: app/api/auth_permissions/hierarchy.py:214
+msgid "Company Users"
+msgstr "Utilisateurs de l'entreprise"
+
+#: app/api/auth_permissions/hierarchy.py:215
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: app/api/auth_permissions/hierarchy.py:217
+msgid "Admin"
+msgstr "Administrateur"
+
+#: app/api/auth_permissions/hierarchy.py:218
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: app/api/auth_permissions/hierarchy.py:219
+msgid "Roles"
+msgstr "Rôles"
+
+#: app/api/auth_permissions/hierarchy.py:220
+msgid "Events Explorer"
+msgstr "Explorateur d'événements"
+
+#: app/api/auth_permissions/hierarchy.py:223
+msgid "Helpdesk"
+msgstr ""
+
+#: app/api/comments/schemas/comments.py:15
+#: app/api/comments/schemas/comments.py:32
+msgid "This schema represents a Comment model"
+msgstr "Ce schéma représente un modèle de commentaire"
+
+#: app/api/comments/schemas/comments.py:21
+msgid "emoji"
+msgstr ""
+
+#: app/api/comments/schemas/comments.py:21
+#: app/api/comments/schemas/comments.py:37
+msgid "name of the Comment"
+msgstr "nom du commentaire"
+
+#: app/api/comments/schemas/comments.py:37
+#, fuzzy
+msgid "content"
+msgstr "compter"
+
+#: app/api/company/schemas/companies.py:14
+msgid "This schema represents a Company model"
+msgstr "Ce schéma représente un modèle d'entreprise"
+
+#: app/api/company/schemas/companies.py:18
+#: app/api/history/schemas/dashboards.py:16
+#: app/api/history/schemas/dashboards.py:30
+#: app/api/inventory/schemas/items.py:71 app/api/inventory/schemas/items.py:174
+#: app/api/inventory/schemas/orders.py:42
+#: app/api/permissions/schemas/roles.py:26
+#: app/api/permissions/schemas/users.py:40 app/api/tags/schemas/tags.py:18
+#: app/api/warehouse/schemas/containers.py:253
+#: app/api/warehouse/schemas/facilities.py:22
+msgid "name"
+msgstr "nom"
+
+#: app/api/company/schemas/companies.py:18
+msgid "name of the Company"
+msgstr "nom de la Société"
+
+#: app/api/company_users/schemas/company_users.py:20
+msgid "This schema represents a CompanyUser model"
+msgstr "Ce schéma représente un modèle CompanyUser"
+
+#: app/api/company_users/schemas/company_users.py:38
+#, fuzzy
+msgid "company_id"
+msgstr "ID de l'entreprise"
+
+#: app/api/company_users/schemas/company_users.py:38
+msgid "Company ID"
+msgstr "ID de l'entreprise"
+
+#: app/api/company_users/schemas/company_users.py:48
+#: app/api/permissions/schemas/users.py:33
+#, fuzzy
+msgid "first_name"
+msgstr "prénom de l'utilisateur"
+
+#: app/api/company_users/schemas/company_users.py:48
+msgid "first_name of the User"
+msgstr "prénom de l'utilisateur"
+
+#: app/api/company_users/schemas/company_users.py:55
+#: app/api/permissions/schemas/users.py:35
+#, fuzzy
+msgid "last_name"
+msgstr "nom"
+
+#: app/api/company_users/schemas/company_users.py:55
+msgid "last_name of the User"
+msgstr "nom de famille de l'utilisateur"
+
+#: app/api/company_users/schemas/company_users.py:62
+#: app/api/permissions/schemas/users.py:57
+#: app/api/permissions/schemas/users.py:153
+msgid "email"
+msgstr ""
+
+#: app/api/company_users/schemas/company_users.py:62
+#: app/api/permissions/schemas/users.py:57
+msgid "email of the User"
+msgstr "email de l'Utilisateur"
+
+#: app/api/company_users/schemas/company_users.py:69
+#: app/api/permissions/schemas/users.py:64
+msgid "password"
+msgstr ""
+
+#: app/api/company_users/schemas/company_users.py:69
+#: app/api/permissions/schemas/users.py:64
+msgid "password of the User"
+msgstr "mot de passe de l'Utilisateur"
+
+#: app/api/company_users/schemas/company_users.py:76
+#, fuzzy
+msgid "company_name"
+msgstr "nom_entreprise de l'utilisateur"
+
+#: app/api/company_users/schemas/company_users.py:76
+msgid "company_name of the User"
+msgstr "nom_entreprise de l'utilisateur"
+
+#: app/api/company_users/services/company_users.py:152
+#: app/api/company_users/services/company_users.py:164
+#: app/api/permissions/services/users.py:298
+#: app/api/permissions/services/users.py:310
+#: app/api/permissions/services/users.py:369
+#: app/api/permissions/services/users.py:413
+msgid "E-mail service is not available"
+msgstr "Le service de courrier électronique n'est pas disponible"
+
+#: app/api/files/schemas/files.py:22
+msgid "This schema represents a File model"
+msgstr "Ce schéma représente un modèle de fichier"
+
+#: app/api/files/schemas/files.py:28
+#, fuzzy
+msgid "file_name"
+msgstr "nom"
+
+#: app/api/files/schemas/files.py:28
+msgid "The name of the File "
+msgstr "Le nom du fichier "
+
+#: app/api/files/schemas/files.py:29
+msgid "File name is required"
+msgstr "Le nom du fichier est requis"
+
+#: app/api/files/schemas/files.py:34
+#, fuzzy
+msgid "mime_type"
+msgstr "tapez"
+
+#: app/api/files/schemas/files.py:34
+msgid "format of the File"
+msgstr "format du fichier"
+
+#: app/api/files/schemas/files.py:35
+msgid "File format is required"
+msgstr "Le format de fichier est requis"
+
+#: app/api/files/schemas/files.py:41
+msgid "size"
+msgstr ""
+
+#: app/api/files/schemas/files.py:41
+msgid "Size of the File"
+msgstr "Taille du fichier"
+
+#: app/api/files/schemas/files.py:46
+msgid "url"
+msgstr ""
+
+#: app/api/files/schemas/files.py:46
+msgid "link of the File"
+msgstr "lien du fichier"
+
+#: app/api/files/schemas/files.py:47
+msgid "File link is required"
+msgstr "Le lien vers le fichier est requis"
+
+#: app/api/files/schemas/files.py:88
+msgid "upload_files"
+msgstr ""
+
+#: app/api/files/schemas/files.py:126
+#, fuzzy
+msgid "file_type"
+msgstr "tapez"
+
+#: app/api/files/schemas/files.py:126
+msgid "The type of the file"
+msgstr "Le type du fichier"
+
+#: app/api/files/schemas/files.py:133 app/api/inventory/schemas/items.py:118
+#: app/api/inventory/schemas/items.py:165
+#: app/api/inventory/schemas/items.py:295
+#: app/api/inventory/schemas/orders.py:55
+#: app/api/inventory/schemas/orders.py:217
+#: app/api/warehouse/schemas/containers.py:201
+#, fuzzy
+msgid "status"
+msgstr "statut par nom"
+
+#: app/api/files/schemas/files.py:133
+msgid "The status of the file"
+msgstr "L'état du dossier"
+
+#: app/api/files/schemas/files.py:140
+msgid "mime_types"
+msgstr ""
+
+#: app/api/files/schemas/files.py:140 app/api/tags/schemas/tags.py:68
+msgid "filter by tag type"
+msgstr "filtrer par type de balise"
+
+#: app/api/files/schemas/files.py:150 app/api/history/schemas/dashboards.py:68
+#: app/api/inventory/schemas/orders.py:61 app/api/tags/schemas/tags.py:35
+#: app/api/warehouse/schemas/containers.py:258
+msgid "type"
+msgstr "tapez"
+
+#: app/api/files/schemas/files.py:150
+msgid "The type of the export"
+msgstr "Le type d'exportation"
+
+#: app/api/files/schemas/files.py:151
+msgid "Export type is required"
+msgstr "Le type d'exportation est requis"
+
+#: app/api/history/schemas/dashboards.py:23
+#: app/api/inventory/schemas/items.py:179
+msgid "count"
+msgstr "compter"
+
+#: app/api/history/schemas/dashboards.py:39
+#: app/api/history/schemas/dashboards.py:43
+#: app/api/history/schemas/dashboards.py:84
+#: app/api/history/schemas/dashboards.py:88
+#: app/api/history/schemas/dashboards.py:107
+#: app/api/history/schemas/dashboards.py:111
+#: app/api/history/schemas/dashboards.py:156
+#: app/api/history/schemas/dashboards.py:160
+msgid "list of strain and count"
+msgstr "liste des souches et du nombre"
+
+#: app/api/history/schemas/dashboards.py:48
+#: app/api/history/schemas/dashboards.py:116
+msgid "xField"
+msgstr "xChamp"
+
+#: app/api/history/schemas/dashboards.py:53
+#: app/api/history/schemas/dashboards.py:121
+msgid "yField"
+msgstr "yChamp"
+
+#: app/api/history/schemas/dashboards.py:58
+#: app/api/history/schemas/dashboards.py:126
+msgid "seriesField"
+msgstr "sérieChamp"
+
+#: app/api/history/schemas/dashboards.py:75
+#: app/api/history/schemas/dashboards.py:145
+#: app/api/permissions/schemas/roles.py:63 app/utils/schemas/utils/utils.py:173
+msgid "value"
+msgstr "valeur"
+
+#: app/api/history/schemas/dashboards.py:93
+msgid "colorField"
+msgstr "champ de couleur"
+
+#: app/api/history/schemas/dashboards.py:98
+msgid "angleField"
+msgstr "champangle"
+
+#: app/api/history/schemas/dashboards.py:136
+#: app/api/warehouse/schemas/containers.py:51
+#: app/utils/schemas/utils/utils.py:165
+msgid "title"
+msgstr "titre"
+
+#: app/api/history/schemas/dashboards.py:209
+#: app/api/inventory/schemas/items.py:165
+#: app/api/warehouse/schemas/containers.py:201
+#: app/api/warehouse/schemas/rooms.py:234
+msgid "filter by status"
+msgstr "filtrer par statut"
+
+#: app/api/history/schemas/dashboards.py:215
+msgid "filter by room id"
+msgstr "filtrer par identifiant de pièce"
+
+#: app/api/history/schemas/history.py:23
+#, fuzzy
+msgid "This schema represents a History model"
+msgstr "Ce schéma représente un modèle OldHistory"
+
+#: app/api/history/schemas/history.py:42
+#, fuzzy
+msgid "This schema represents an Event model"
+msgstr "Ce schéma représente un modèle Client"
+
+#: app/api/history/schemas/history.py:81 app/api/history/schemas/history.py:112
+msgid "order by field"
+msgstr "trier par champ"
+
+#: app/api/history/schemas/history.py:88
+msgid "filter by actions"
+msgstr "filtrer par actions"
+
+#: app/api/history/schemas/history.py:95
+#, fuzzy
+msgid "filter by user ids"
+msgstr "filtrer par identifiant de souche"
+
+#: app/api/inventory/routes/suggestions.py:28
+msgid "Success: All Companies Retrieved Successfully"
+msgstr "Succès : Toutes les entreprises ont été récupérées avec succès"
+
+#: app/api/inventory/routes/suggestions.py:36
+msgid "Success: All Items Retrieved Successfully"
+msgstr "Succès : Tous les éléments ont été récupérés avec succès"
+
+#: app/api/inventory/routes/suggestions.py:44
+msgid "Success: All Roles Retrieved Successfully"
+msgstr "Succès : tous les rôles ont été récupérés avec succès"
+
+#: app/api/inventory/routes/suggestions.py:52
+msgid "Success: All Inventory Retrieved Successfully"
+msgstr "Succès : tout l'inventaire a été récupéré avec succès"
+
+#: app/api/inventory/routes/suggestions.py:60
+msgid "Success: All Clients Retrieved Successfully"
+msgstr "Succès : Tous les clients ont été récupérés avec succès"
+
+#: app/api/inventory/routes/suggestions.py:68
+msgid "Success: All Suppliers Retrieved Successfully"
+msgstr "Succès : Tous les fournisseurs ont été récupérés avec succès"
+
+#: app/api/inventory/schemas/clients.py:30
+msgid "This schema represents a Client model"
+msgstr "Ce schéma représente un modèle Client"
+
+#: app/api/inventory/schemas/clients.py:40
+msgid "Schema to gel all process for specific batch by batch id"
+msgstr ""
+"Schéma pour geler tous les processus pour un lot spécifique par "
+"identifiant de lot"
+
+#: app/api/inventory/schemas/inbound_orders.py:34
+msgid "This schema represents an InboundOrder model"
+msgstr "Ce schéma représente un modèle InboundOrder"
+
+#: app/api/inventory/schemas/inbound_orders.py:46
+#, fuzzy
+msgid "Name of the inbound order"
+msgstr "nom de la commande entrante"
+
+#: app/api/inventory/schemas/inbound_orders.py:54
+#, fuzzy
+msgid "Description of the inbound order"
+msgstr "description de l'inbound_order"
+
+#: app/api/inventory/schemas/inbound_orders.py:62
+#, fuzzy
+msgid "The supplier of this inbound order"
+msgstr "Le fournisseur de cette inbound_order"
+
+#: app/api/inventory/schemas/inbound_orders.py:69
+#, fuzzy
+msgid "Name of the supplier"
+msgstr "Nom de l'élément"
+
+#: app/api/inventory/schemas/inbound_orders.py:77
+#, fuzzy
+msgid "The status of the inbound order"
+msgstr "Le fournisseur de cette inbound_order"
+
+#: app/api/inventory/schemas/inbound_orders.py:86
+#, fuzzy
+msgid "The payment status of the inbound order"
+msgstr "nom de la commande entrante"
+
+#: app/api/inventory/schemas/inbound_orders.py:93
+#, fuzzy
+msgid "URL of the order"
+msgstr "email de l'Utilisateur"
+
+#: app/api/inventory/schemas/inbound_orders.py:98
+msgid "Cached total amount"
+msgstr ""
+
+#: app/api/inventory/schemas/inbound_orders.py:104
+#, fuzzy
+msgid "List of inbound order items"
+msgstr "ID de concept du poste de commande entrante"
+
+#: app/api/inventory/schemas/inbound_orders.py:116
+msgid "This schema represents an InboundOrderItem model"
+msgstr "Ce schéma représente un modèle InboundOrderItem"
+
+#: app/api/inventory/schemas/inbound_orders.py:146
+#, fuzzy
+msgid "The ordered quantity of the item"
+msgstr "la quantité commandée du poste de commande entrante"
+
+#: app/api/inventory/schemas/inbound_orders.py:155
+#, fuzzy
+msgid "The arrived quantity of the item"
+msgstr "quantité arrivée du poste de commande entrante"
+
+#: app/api/inventory/schemas/inbound_orders.py:162
+msgid "Increase inventory after arrival"
+msgstr "Augmenter l'inventaire après l'arrivée"
+
+#: app/api/inventory/schemas/inbound_orders.py:170
+#, fuzzy
+msgid "The concept ID of the item"
+msgstr "le order_id de l'article"
+
+#: app/api/inventory/schemas/inbound_orders.py:179
+#, fuzzy
+msgid "Location description"
+msgstr "description de l'emplacement"
+
+#: app/api/inventory/schemas/inbound_orders.py:186
+#, fuzzy
+msgid "Name of the concept"
+msgstr "nom du commentaire"
+
+#: app/api/inventory/schemas/inbound_orders.py:212
+#, fuzzy
+msgid "Filter by supplier ID"
+msgstr "filtrer par identifiant de souche"
+
+#: app/api/inventory/schemas/inbound_orders.py:226
+#, fuzzy
+msgid "The status to set for the inbound order"
+msgstr "ID de concept du poste de commande entrante"
+
+#: app/api/inventory/schemas/inbound_orders.py:234
+#, fuzzy
+msgid "List of item instances"
+msgstr "Liste des identifiants"
+
+#: app/api/inventory/schemas/inbound_orders.py:243
+#, fuzzy
+msgid "The ID of the inbound order item (not the concept)"
+msgstr "L'identifiant de l'article de commande entrante (pas le concept)"
+
+#: app/api/inventory/schemas/inbound_orders.py:253
+msgid "Indicates if the arrival is finalized"
+msgstr ""
+
+#: app/api/inventory/schemas/inbound_orders.py:260
+#, fuzzy
+msgid "List of inbound order arrival items"
+msgstr "ID de concept du poste de commande entrante"
+
+#: app/api/inventory/schemas/inventories.py:30
+#: app/api/inventory/schemas/inventories.py:93
+#: app/api/inventory/schemas/items.py:198
+msgid "This schema represents an Item Instance model"
+msgstr "Ce schéma représente un modèle d'instance d'article"
+
+#: app/api/inventory/schemas/inventories.py:38
+#: app/api/inventory/schemas/inventories.py:101
+#: app/api/inventory/schemas/items.py:206
+msgid "Select Unit"
+msgstr ""
+
+#: app/api/inventory/schemas/inventories.py:68
+#: app/api/inventory/schemas/items.py:314 app/api/warehouse/schemas/utils.py:27
+#, fuzzy
+msgid "location_description"
+msgstr "description de l'emplacement"
+
+#: app/api/inventory/schemas/inventories.py:68
+#: app/api/warehouse/schemas/utils.py:27
+msgid "The location of this item"
+msgstr "L'emplacement de cet élément"
+
+#: app/api/inventory/schemas/inventories.py:119
+#: app/api/inventory/schemas/items.py:370
+#: app/api/inventory/schemas/orders.py:158 app/utils/schemas/utils/utils.py:292
+msgid "inventory_id"
+msgstr ""
+
+#: app/api/inventory/schemas/inventories.py:119
+msgid "The inventory_id of this item"
+msgstr "Inventory_id de cet article"
+
+#: app/api/inventory/schemas/items.py:48
+msgid "This schema represents an Item model"
+msgstr "Ce schéma représente un modèle Item"
+
+#: app/api/inventory/schemas/items.py:71
+msgid "Name of the Item"
+msgstr "Nom de l'élément"
+
+#: app/api/inventory/schemas/items.py:80 app/api/inventory/schemas/orders.py:48
+#: app/api/permissions/schemas/roles.py:34
+#: app/api/warehouse/schemas/facilities.py:29
+#, fuzzy
+msgid "description"
+msgstr "description de l'emplacement"
+
+#: app/api/inventory/schemas/items.py:81
+msgid "description of the Item"
+msgstr "description de l'article"
+
+#: app/api/inventory/schemas/items.py:89
+msgid "brand"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:89
+msgid "The brand of the item"
+msgstr "La marque de l'article"
+
+#: app/api/inventory/schemas/items.py:96
+#, fuzzy
+msgid "default unit"
+msgstr "l'unité par défaut de l'élément"
+
+#: app/api/inventory/schemas/items.py:97
+msgid "The default unit of the item"
+msgstr "l'unité par défaut de l'élément"
+
+#: app/api/inventory/schemas/items.py:104
+msgid "sku"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:104
+msgid "The SKU of the item"
+msgstr "le SKU de l'article"
+
+#: app/api/inventory/schemas/items.py:110
+msgid "is infinite"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:111
+msgid "Whether this item is infinite"
+msgstr "Si cet élément est infini"
+
+#: app/api/inventory/schemas/items.py:118
+#: app/api/inventory/schemas/items.py:295
+msgid "The status of the item"
+msgstr "Le statut de l'élément"
+
+#: app/api/inventory/schemas/items.py:145
+#: app/api/inventory/schemas/items.py:234
+#: app/api/warehouse/schemas/containers.py:218
+#: app/api/warehouse/schemas/containers.py:302
+msgid "concept_id"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:146
+msgid "The ID of the item to search for"
+msgstr "L'ID de l'élément à rechercher"
+
+#: app/api/inventory/schemas/items.py:235
+msgid "The id the instance concept"
+msgstr "L'identifiant du concept d'instance"
+
+#: app/api/inventory/schemas/items.py:245
+msgid "external_id"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:246
+#: app/api/inventory/schemas/items.py:255
+#: app/api/inventory/schemas/items.py:264
+msgid "The external_id of this item"
+msgstr "l'id_externe de cet élément"
+
+#: app/api/inventory/schemas/items.py:254
+#, fuzzy
+msgid "batch_number"
+msgstr "numéro de page"
+
+#: app/api/inventory/schemas/items.py:263
+msgid "serial_number"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:272
+msgid "expiration_date"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:273
+msgid "The expiration date of this item"
+msgstr "la date d'expiration de cet article"
+
+#: app/api/inventory/schemas/items.py:281
+msgid "warranty_finish"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:282
+msgid "The time when the warranty finishes"
+msgstr "Le moment où la garantie prend fin"
+
+#: app/api/inventory/schemas/items.py:289
+msgid "slug"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:289
+msgid "The slug of this item"
+msgstr "le slug de cet élément"
+
+#: app/api/inventory/schemas/items.py:304
+msgid "unit_price"
+msgstr ""
+
+#: app/api/inventory/schemas/items.py:305
+#: app/api/inventory/schemas/items.py:323 app/api/inventory/schemas/utils.py:15
+#: app/utils/schemas/utils/utils.py:298
+msgid "The quantity of item used"
+msgstr "La quantité d'article utilisée"
+
+#: app/api/inventory/schemas/items.py:315
+msgid "The location description of this item"
+msgstr "La description de l'emplacement de cet article"
+
+#: app/api/inventory/schemas/items.py:322
+#, fuzzy
+msgid "tax_rate"
+msgstr "date de début"
+
+#: app/api/inventory/schemas/items.py:371
+msgid "The Item instance we are taking this item from"
+msgstr "l'instance d'élément à partir de laquelle nous prenons cet élément"
+
+#: app/api/inventory/schemas/items.py:384
+#, fuzzy
+msgid "item_id"
+msgstr "Articles"
+
+#: app/api/inventory/schemas/items.py:384
+msgid "The Item that was used"
+msgstr "L'élément qui a été utilisé"
+
+#: app/api/inventory/schemas/orders.py:38
+msgid "This schema represents an Order model"
+msgstr "Ce schéma représente un modèle de commande"
+
+#: app/api/inventory/schemas/orders.py:42
+msgid "name of the inbound_order"
+msgstr "nom de la commande entrante"
+
+#: app/api/inventory/schemas/orders.py:48
+msgid "description of the inbound_order"
+msgstr "description de l'inbound_order"
+
+#: app/api/inventory/schemas/orders.py:61
+msgid "type is missing"
+msgstr "le type est manquant"
+
+#: app/api/inventory/schemas/orders.py:67
+#, fuzzy
+msgid "payment_status"
+msgstr "statut par nom"
+
+#: app/api/inventory/schemas/orders.py:68
+msgid "The PaymentStatus with which this item will be counted"
+msgstr "Le PaymentStatus avec lequel cet article sera compté"
+
+#: app/api/inventory/schemas/orders.py:75
+#, fuzzy
+msgid "total"
+msgstr "titre"
+
+#: app/api/inventory/schemas/orders.py:75
+msgid "total_price of the inbound_order_item"
+msgstr "prix_total de l'article entrant_order_item"
+
+#: app/api/inventory/schemas/orders.py:82
+#, fuzzy
+msgid "estimated_arrival_date"
+msgstr "date d'arrivée"
+
+#: app/api/inventory/schemas/orders.py:82
+msgid "arrival date"
+msgstr "date d'arrivée"
+
+#: app/api/inventory/schemas/orders.py:85
+#, fuzzy
+msgid "order_url"
+msgstr "URL de la commande"
+
+#: app/api/inventory/schemas/orders.py:85
+msgid "order url"
+msgstr "URL de la commande"
+
+#: app/api/inventory/schemas/orders.py:92
+#, fuzzy
+msgid "courier_email"
+msgstr "e-mail de messagerie"
+
+#: app/api/inventory/schemas/orders.py:92
+msgid "courier email"
+msgstr "e-mail de messagerie"
+
+#: app/api/inventory/schemas/orders.py:95
+#, fuzzy
+msgid "courier_phone"
+msgstr "téléphone de messagerie"
+
+#: app/api/inventory/schemas/orders.py:95
+msgid "courier phone"
+msgstr "téléphone de messagerie"
+
+#: app/api/inventory/schemas/orders.py:100
+#: app/api/inventory/schemas/orders.py:124
+msgid "total_price"
+msgstr ""
+
+#: app/api/inventory/schemas/orders.py:100
+#: app/api/inventory/schemas/orders.py:124
+msgid "total_price of the inbound_order"
+msgstr "prix_total de la commande entrante"
+
+#: app/api/inventory/schemas/orders.py:134
+msgid "This schema represents an OrderItem model"
+msgstr "Ce schéma représente un modèle OrderItem"
+
+#: app/api/inventory/schemas/orders.py:138
+#, fuzzy
+msgid "order_id"
+msgstr "numéro de commande"
+
+#: app/api/inventory/schemas/orders.py:138
+msgid "The order_id of the item"
+msgstr "le order_id de l'article"
+
+#: app/api/inventory/schemas/orders.py:147
+#: app/api/inventory/schemas/outbound_orders.py:29
+msgid "This schema represents an OutboundOrderItem model"
+msgstr "Ce schéma représente un modèle OutboundOrderItem"
+
+#: app/api/inventory/schemas/orders.py:152
+#: app/api/inventory/schemas/utils.py:15 app/utils/schemas/utils/utils.py:298
+msgid "quantity"
+msgstr ""
+
+#: app/api/inventory/schemas/orders.py:152
+msgid "The quantity of the outbound order item"
+msgstr "la quantité du poste de commande sortante"
+
+#: app/api/inventory/schemas/orders.py:159
+msgid "The inventory ID associated with the outbound order item"
+msgstr "ID de stock associé à l'article de commande sortante"
+
+#: app/api/inventory/schemas/orders.py:230
+#, fuzzy
+msgid "inbound_order_item_id"
+msgstr "Commandes entrantes"
+
+#: app/api/inventory/schemas/orders.py:230
+msgid "The id of the inbound order item (not the concept)"
+msgstr "L'identifiant de l'article de commande entrante (pas le concept)"
+
+#: app/api/inventory/schemas/outbound_orders.py:58
+#, fuzzy
+msgid "The ordered quantity of the outbound order item"
+msgstr "la quantité commandée du poste de commande entrante"
+
+#: app/api/inventory/schemas/outbound_orders.py:66
+#, fuzzy
+msgid "Decrease inventory after shipment"
+msgstr "diminuer l'inventaire après l'arrivée"
+
+#: app/api/inventory/schemas/outbound_orders.py:74
+msgid "The inventory ID of the outbound order item"
+msgstr "ID d'inventaire de l'article de commande sortante"
+
+#: app/api/inventory/schemas/outbound_orders.py:84
+#, fuzzy
+msgid "Name of the concept associated with the outbound order item"
+msgstr "ID de stock associé à l'article de commande sortante"
+
+#: app/api/inventory/schemas/outbound_orders.py:96
+msgid "This schema represents an OutboundOrder model"
+msgstr "Ce schéma représente un modèle OutboundOrder"
+
+#: app/api/inventory/schemas/outbound_orders.py:110
+#, fuzzy
+msgid "Name of the outbound order"
+msgstr "nom de la commande entrante"
+
+#: app/api/inventory/schemas/outbound_orders.py:119
+#, fuzzy
+msgid "Cached total amount of the outbound order"
+msgstr "la quantité du poste de commande sortante"
+
+#: app/api/inventory/schemas/outbound_orders.py:142
+#, fuzzy
+msgid "ID of the client associated with the outbound order"
+msgstr "ID de stock associé à l'article de commande sortante"
+
+#: app/api/inventory/schemas/outbound_orders.py:150
+#, fuzzy
+msgid "Name of the client associated with the outbound order"
+msgstr "ID de stock associé à l'article de commande sortante"
+
+#: app/api/inventory/schemas/outbound_orders.py:159
+#, fuzzy
+msgid "List of items in the outbound order"
+msgstr "la quantité du poste de commande sortante"
+
+#: app/api/inventory/schemas/outbound_orders.py:167
+#, fuzzy
+msgid "Number of items in the outbound order"
+msgstr "nom de la commande entrante"
+
+#: app/api/inventory/schemas/outbound_orders.py:188
+#: app/api/inventory/schemas/stakeholders.py:130
+#, fuzzy
+msgid "Filter by status"
+msgstr "filtrer par statut"
+
+#: app/api/inventory/schemas/outbound_orders.py:194
+#, fuzzy
+msgid "Filter by client ID"
+msgstr "filtrer par identifiant de souche"
+
+#: app/api/inventory/schemas/outbound_orders.py:204
+#, fuzzy
+msgid "ID of the outbound order"
+msgstr "nom de la commande entrante"
+
+#: app/api/inventory/schemas/stakeholders.py:22
+msgid "This schema represents a Stakeholder model"
+msgstr "Ce schéma représente un modèle de partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:26
+#, fuzzy
+msgid "Name of the Stakeholder"
+msgstr "nom de la partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:27
+#, fuzzy
+msgid "Stakeholder name is required"
+msgstr "Le nom du rôle est requis"
+
+#: app/api/inventory/schemas/stakeholders.py:33
+#, fuzzy
+msgid "Email of the Stakeholder"
+msgstr "e-mail de la partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:41
+#, fuzzy
+msgid "VAT number of the Stakeholder"
+msgstr "nom de la partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:43
+#, fuzzy
+msgid "VAT number is required"
+msgstr "Le nom de la balise est requis"
+
+#: app/api/inventory/schemas/stakeholders.py:51
+#, fuzzy
+msgid "Phone number of the Stakeholder"
+msgstr "téléphone de la partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:58
+msgid "Address of the Stakeholder"
+msgstr "Adresse de l'intervenant"
+
+#: app/api/inventory/schemas/stakeholders.py:59
+#, fuzzy
+msgid "Address is required"
+msgstr "Le nom de la balise est requis"
+
+#: app/api/inventory/schemas/stakeholders.py:66
+msgid "Stars rating of the Stakeholder"
+msgstr "Note en étoiles de la partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:72
+#, fuzzy
+msgid "Status of the Stakeholder"
+msgstr "nom de la partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:79
+#, fuzzy
+msgid "Number of orders associated with the Stakeholder"
+msgstr "nom de la partie prenante"
+
+#: app/api/inventory/schemas/stakeholders.py:93
+#, fuzzy
+msgid "Schema to get all process counts for a specific batch by batch ID"
+msgstr ""
+"Schéma pour geler tous les processus pour un lot spécifique par "
+"identifiant de lot"
+
+#: app/api/inventory/schemas/stakeholders.py:99
+msgid "Total count of processes"
+msgstr ""
+
+#: app/api/inventory/schemas/stakeholders.py:105
+msgid "Count of processes currently in progress"
+msgstr ""
+
+#: app/api/inventory/schemas/stakeholders.py:110
+msgid "Count of received processes"
+msgstr ""
+
+#: app/api/inventory/schemas/stakeholders.py:116
+msgid "Count of cancelled processes"
+msgstr ""
+
+#: app/api/inventory/schemas/suppliers.py:26
+msgid "This schema represents a Supplier model"
+msgstr "Ce schéma représente un modèle Fournisseur"
+
+#: app/api/inventory/schemas/utils.py:16
+#, fuzzy
+msgid "You must specify the quantity of item used"
+msgstr "Vous devez préciser la quantité utilisée"
+
+#: app/api/inventory/schemas/utils.py:32
+msgid "inputSelect"
+msgstr ""
+
+#: app/api/permissions/schemas/permissions.py:16
+msgid "This schema represents a Permission model"
+msgstr "Ce schéma représente un modèle d'autorisation"
+
+#: app/api/permissions/schemas/permissions.py:28
+msgid "created_at"
+msgstr ""
+
+#: app/api/permissions/schemas/permissions.py:28
+msgid "Date Permission Created"
+msgstr "Date de création de l'autorisation"
+
+#: app/api/permissions/schemas/permissions.py:37
+#: app/api/permissions/schemas/routes.py:11
+msgid "This schema represents a PermissionRoute model"
+msgstr "Ce schéma représente un modèle PermissionRoute"
+
+#: app/api/permissions/schemas/roles.py:22
+msgid "This schema represents a Role model"
+msgstr "Ce schéma représente un modèle de rôle"
+
+#: app/api/permissions/schemas/roles.py:26
+msgid "name of the Role"
+msgstr "nom du rôle"
+
+#: app/api/permissions/schemas/roles.py:27
+msgid "Role name is required"
+msgstr "Le nom du rôle est requis"
+
+#: app/api/permissions/schemas/roles.py:34
+msgid "description of the Role"
+msgstr "description du rôle"
+
+#: app/api/permissions/schemas/roles.py:47
+msgid "inserted_at"
+msgstr ""
+
+#: app/api/permissions/schemas/roles.py:47
+msgid "Date Role Created"
+msgstr "Date de création du rôle"
+
+#: app/api/permissions/schemas/roles.py:58
+#, fuzzy
+msgid "permission_action"
+msgstr "autorisation"
+
+#: app/api/permissions/schemas/roles.py:58
+msgid "permission"
+msgstr "autorisation"
+
+#: app/api/permissions/schemas/roles.py:63
+msgid "value of permission"
+msgstr "valeur de la permission"
+
+#: app/api/permissions/schemas/roles.py:64
+msgid "value of permission is required"
+msgstr "la valeur de l'autorisation est requise"
+
+#: app/api/permissions/schemas/roles.py:72
+#, fuzzy
+msgid "user_ids"
+msgstr "ID utilisateur"
+
+#: app/api/permissions/schemas/roles.py:72
+msgid "user id"
+msgstr "identifiant de l'utilisateur"
+
+#: app/api/permissions/schemas/roles.py:73
+msgid "user id is required"
+msgstr "l'identifiant de l'utilisateur est requis"
+
+#: app/api/permissions/schemas/tokens.py:30
+msgid "This schema represents Token model"
+msgstr "Ce schéma représente le modèle Token"
+
+#: app/api/permissions/schemas/tokens.py:43
+msgid "Represents a social token"
+msgstr "Représente un jeton social"
+
+#: app/api/permissions/schemas/tokens.py:66
+msgid "Represents a response for updated Token"
+msgstr "représente une réponse pour le jeton mis à jour"
+
+#: app/api/permissions/schemas/users.py:20
+msgid "This schema represents a User model"
+msgstr "Ce schéma représente un modèle utilisateur"
+
+#: app/api/permissions/schemas/users.py:30
+#: app/api/warehouse/schemas/containers.py:43
+#: app/utils/schemas/utils/utils.py:142
+msgid "id"
+msgstr ""
+
+#: app/api/permissions/schemas/users.py:30
+msgid "User ID"
+msgstr "ID utilisateur"
+
+#: app/api/permissions/schemas/users.py:33
+msgid "first name of User"
+msgstr "prénom de l'utilisateur"
+
+#: app/api/permissions/schemas/users.py:35
+msgid "last name of User"
+msgstr "nom de famille de l’utilisateur"
+
+#: app/api/permissions/schemas/users.py:40
+#: app/api/permissions/schemas/users.py:46
+msgid "full name of the User"
+msgstr "nom complet de l'utilisateur"
+
+#: app/api/permissions/schemas/users.py:46
+#, fuzzy
+msgid "full_name"
+msgstr "nom"
+
+#: app/api/permissions/schemas/users.py:58
+#: app/api/permissions/schemas/users.py:154
+msgid "email of User is required"
+msgstr "l'adresse e-mail de l'utilisateur est requise"
+
+#: app/api/permissions/schemas/users.py:70
+msgid "email_verified_at"
+msgstr ""
+
+#: app/api/permissions/schemas/users.py:70
+msgid "The date the user email was verified"
+msgstr "la date à laquelle l'e-mail de l'utilisateur a été vérifié"
+
+#: app/api/permissions/schemas/users.py:76
+msgid "Date User Created"
+msgstr "Date de création de l'utilisateur"
+
+#: app/api/permissions/schemas/users.py:82
+#: app/api/permissions/schemas/users.py:171
+#, fuzzy
+msgid "role_ids"
+msgstr "Rôles"
+
+#: app/api/permissions/schemas/users.py:82
+#: app/api/permissions/schemas/users.py:171
+msgid "List of role ids to assign to the user"
+msgstr "Liste des identifiants de rôle à attribuer à l'utilisateur"
+
+#: app/api/permissions/schemas/users.py:92
+msgid "locale"
+msgstr ""
+
+#: app/api/permissions/schemas/users.py:92
+msgid "The locale of the user"
+msgstr "paramètres régionaux de l'utilisateur"
+
+#: app/api/permissions/schemas/users.py:100
+msgid "timezone"
+msgstr ""
+
+#: app/api/permissions/schemas/users.py:100
+msgid "The timezone of the user"
+msgstr "le fuseau horaire de l'utilisateur"
+
+#: app/api/permissions/schemas/users.py:153
+msgid "The email to send the password reset email"
+msgstr "L'e-mail pour envoyer l'e-mail de réinitialisation du mot de passe"
+
+#: app/api/permissions/schemas/users.py:179
+msgid "This schema represents a User query"
+msgstr "Ce schéma représente une requête utilisateur"
+
+#: app/api/permissions/schemas/users.py:188
+#, fuzzy
+msgid "permissions_routes"
+msgstr "Autorisations de l'utilisateur"
+
+#: app/api/permissions/schemas/users.py:188
+msgid "Permissions of the User"
+msgstr "Autorisations de l'utilisateur"
+
+#: app/api/tags/schemas/tags.py:13
+msgid "This schema represents a Tag model"
+msgstr "Ce schéma représente un modèle de Tag"
+
+#: app/api/tags/schemas/tags.py:18
+msgid "name of the Tag"
+msgstr "nom du tag"
+
+#: app/api/tags/schemas/tags.py:19
+msgid "Tag name is required"
+msgstr "Le nom de la balise est requis"
+
+#: app/api/tags/schemas/tags.py:25
+#, fuzzy
+msgid "color"
+msgstr "champ de couleur"
+
+#: app/api/tags/schemas/tags.py:25
+msgid "color of the Tag"
+msgstr "couleur du Tag"
+
+#: app/api/tags/schemas/tags.py:26
+msgid "Tag color is required"
+msgstr "La couleur de l'étiquette est requise"
+
+#: app/api/tags/schemas/tags.py:49
+msgid "Add tags to an item"
+msgstr "Ajouter des balises à un élément"
+
+#: app/api/tags/schemas/tags.py:54
+msgid "tag_ids"
+msgstr ""
+
+#: app/api/tags/schemas/tags.py:54
+msgid "List of tags to add"
+msgstr "Liste des balises à ajouter"
+
+#: app/api/tags/schemas/tags.py:55
+msgid "Tags are required"
+msgstr "les balises sont requises"
+
+#: app/api/tags/schemas/tags.py:68
+#, fuzzy
+msgid "types"
+msgstr "tapez"
+
+#: app/api/warehouse/schemas/containers.py:41
+msgid "This schema represents Container model"
+msgstr "Ce schéma représente le modèle de conteneur"
+
+#: app/api/warehouse/schemas/containers.py:43
+#: app/api/warehouse/schemas/containers.py:249
+#: app/api/warehouse/schemas/containers.py:266
+msgid "Unique id the Equipment"
+msgstr "Identifiant unique de l'équipement"
+
+#: app/api/warehouse/schemas/containers.py:51
+#: app/api/warehouse/schemas/containers.py:253
+#: app/api/warehouse/schemas/containers.py:258
+msgid "Title of the container"
+msgstr "Titre du conteneur"
+
+#: app/api/warehouse/schemas/containers.py:212
+msgid "container_id"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:212
+msgid "Id of the container where this container is located"
+msgstr "Id du conteneur où se trouve ce conteneur"
+
+#: app/api/warehouse/schemas/containers.py:219
+msgid "Id of the container collection this container comes from"
+msgstr "Identifiant de la collection de conteneurs d'où provient ce conteneur"
+
+#: app/api/warehouse/schemas/containers.py:232
+msgid "is_empty"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:232
+msgid "Filter by containers that are empty or not"
+msgstr "Filtrer par conteneurs vides ou non"
+
+#: app/api/warehouse/schemas/containers.py:242
+msgid "only_id"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:243
+#: app/api/warehouse/schemas/rooms.py:137
+msgid "Return only the id of the rooms (this is for the tree selection)"
+msgstr ""
+"Renvoie uniquement l'identifiant des pièces (c'est pour la sélection de "
+"l'arborescence)"
+
+#: app/api/warehouse/schemas/containers.py:266
+#, fuzzy
+msgid "user_id"
+msgstr "ID utilisateur"
+
+#: app/api/warehouse/schemas/containers.py:302
+msgid "The id of the item to search for"
+msgstr "l'identifiant de l'élément à rechercher"
+
+#: app/api/warehouse/schemas/containers.py:309
+#, fuzzy
+msgid "item_types"
+msgstr "Articles"
+
+#: app/api/warehouse/schemas/containers.py:309
+#: app/api/warehouse/schemas/rooms.py:177
+msgid "The types of item we are searching for"
+msgstr "Les types d’articles que nous recherchons"
+
+#: app/api/warehouse/schemas/containers.py:316
+msgid "plant_product_id"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:316
+msgid "The id of the plant_product to search for"
+msgstr "L’identifiant du plant_product à rechercher"
+
+#: app/api/warehouse/schemas/containers.py:323
+msgid "plant_product_types"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:323
+msgid "The types of plant_product we are searching for"
+msgstr "Les types de produits_plantes que nous recherchons"
+
+#: app/api/warehouse/schemas/containers.py:330
+msgid "container_usages"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:330
+msgid "The usages of container we are searching for"
+msgstr "Les utilisations du conteneur que nous recherchons"
+
+#: app/api/warehouse/schemas/containers.py:346
+msgid "destroy_container"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:346
+msgid "Whether to destroy the container itself"
+msgstr "Faut-il détruire le conteneur lui-même"
+
+#: app/api/warehouse/schemas/containers.py:359
+msgid "move_on"
+msgstr ""
+
+#: app/api/warehouse/schemas/containers.py:360
+msgid ""
+"The location to move the container to. This can be either a room_id or a "
+"destination_container_id"
+msgstr "emplacement vers lequel déplacer le conteneur. "
+
+#: app/api/warehouse/schemas/facilities.py:16
+msgid "This schema represents Facility model"
+msgstr "Ce schéma représente le modèle d'installation"
+
+#: app/api/warehouse/schemas/facilities.py:22
+msgid "name of the Facility"
+msgstr "nom de l'établissement"
+
+#: app/api/warehouse/schemas/facilities.py:29
+msgid "description of the Facility"
+msgstr "description de l'Installation"
+
+#: app/api/warehouse/schemas/facilities.py:34
+msgid "address"
+msgstr ""
+
+#: app/api/warehouse/schemas/facilities.py:34
+msgid "address of the Facility"
+msgstr "adresse de l'établissement"
+
+#: app/api/warehouse/schemas/rooms.py:31
+msgid "This schema represents Room model"
+msgstr "Ce schéma représente le modèle de pièce"
+
+#: app/api/warehouse/schemas/rooms.py:39
+msgid "name of the Room"
+msgstr "nom de la salle"
+
+#: app/api/warehouse/schemas/rooms.py:64 app/api/warehouse/schemas/rooms.py:130
+msgid "The facility id where the room is located"
+msgstr "L'identifiant de l'établissement où se trouve la pièce"
+
+#: app/api/warehouse/schemas/rooms.py:146
+msgid "The item instance id to find the room"
+msgstr "L'identifiant de l'instance d'élément pour trouver la pièce"
+
+#: app/api/warehouse/schemas/rooms.py:182
+msgid "Unique id the item"
+msgstr "Identifiant unique de l'article"
+
+#: app/api/warehouse/schemas/rooms.py:227
+msgid "Include containers in the results"
+msgstr "Inclure les conteneurs dans les résultats"
+
+#: app/api/warehouse/schemas/rooms.py:239
+msgid "Exclude this container from the results"
+msgstr "Exclure ce conteneur des résultats"
+
+#: app/api/warehouse/schemas/rooms.py:244
+msgid "Include rooms in the results"
+msgstr "Inclure les pièces dans les résultats"
+
+#: app/api/warehouse/schemas/utils.py:11
+msgid "room_id"
+msgstr ""
+
+#: app/api/warehouse/schemas/utils.py:11
+msgid "The room_id of this item"
+msgstr "Le room_id de cet élément"
+
+#: app/api/warehouse/schemas/utils.py:19
+#, fuzzy
+msgid "destination_container_id"
+msgstr "Le destination_container_id de cet élément"
+
+#: app/api/warehouse/schemas/utils.py:19
+msgid "The destination_container_id of this item"
+msgstr "Le destination_container_id de cet élément"
+
+#: app/exceptions/exception.py:45
+msgid "Insufficient Amount: "
+msgstr "Montant insuffisant : "
+
+#: app/utils/schemas/pagination.py:10
+msgid "This schema represents Pagination schema"
+msgstr "Ce schéma représente le schéma de pagination"
+
+#: app/utils/schemas/utils/dashboards.py:12
+#, fuzzy
+msgid "Type"
+msgstr "tapez"
+
+#: app/utils/schemas/utils/dashboards.py:13
+#, fuzzy
+msgid "The type of the pie chart item"
+msgstr "Le type d'exportation"
+
+#: app/utils/schemas/utils/dashboards.py:21
+#: app/utils/schemas/utils/dashboards.py:136
+#, fuzzy
+msgid "Value"
+msgstr "valeur"
+
+#: app/utils/schemas/utils/dashboards.py:22
+#, fuzzy
+msgid "The value associated with the pie chart item"
+msgstr "L'observation associée à l'action donnée"
+
+#: app/utils/schemas/utils/dashboards.py:31
+#, fuzzy
+msgid "Name"
+msgstr "nom"
+
+#: app/utils/schemas/utils/dashboards.py:31
+#, fuzzy
+msgid "Name of the bar chart item"
+msgstr "Nom de l'élément"
+
+#: app/utils/schemas/utils/dashboards.py:37
+#, fuzzy
+msgid "Count"
+msgstr "compter"
+
+#: app/utils/schemas/utils/dashboards.py:38
+#, fuzzy
+msgid "Count associated with the bar chart item"
+msgstr "ID de stock associé à l'article de commande sortante"
+
+#: app/utils/schemas/utils/dashboards.py:49
+#: app/utils/schemas/utils/dashboards.py:56
+#: app/utils/schemas/utils/dashboards.py:91
+#: app/utils/schemas/utils/dashboards.py:98
+#: app/utils/schemas/utils/dashboards.py:148
+#: app/utils/schemas/utils/dashboards.py:155
+msgid "Data"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:50
+#: app/utils/schemas/utils/dashboards.py:57
+msgid "List of bar chart items with count"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:64
+#, fuzzy
+msgid "X Field"
+msgstr "xChamp"
+
+#: app/utils/schemas/utils/dashboards.py:64
+msgid "Field for the X axis"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:70
+#, fuzzy
+msgid "Y Field"
+msgstr "yChamp"
+
+#: app/utils/schemas/utils/dashboards.py:70
+msgid "Field for the Y axis"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:77
+#, fuzzy
+msgid "Series Field"
+msgstr "sérieChamp"
+
+#: app/utils/schemas/utils/dashboards.py:78
+msgid "Field for series categorization"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:92
+#: app/utils/schemas/utils/dashboards.py:99
+msgid "List of pie chart items with value"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:107
+#, fuzzy
+msgid "Color Field"
+msgstr "champ de couleur"
+
+#: app/utils/schemas/utils/dashboards.py:108
+msgid "Field used for coloring pie chart segments"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:116
+#, fuzzy
+msgid "Angle Field"
+msgstr "champangle"
+
+#: app/utils/schemas/utils/dashboards.py:117
+msgid "Field used for angle calculation in pie chart"
+msgstr ""
+
+#: app/utils/schemas/utils/dashboards.py:127
+#, fuzzy
+msgid "Title"
+msgstr "titre"
+
+#: app/utils/schemas/utils/dashboards.py:128
+#, fuzzy
+msgid "Title of the card chart item"
+msgstr "Titre du conteneur"
+
+#: app/utils/schemas/utils/dashboards.py:137
+#, fuzzy
+msgid "Value associated with the card chart item"
+msgstr "ID de stock associé à l'article de commande sortante"
+
+#: app/utils/schemas/utils/dashboards.py:149
+#: app/utils/schemas/utils/dashboards.py:156
+msgid "List of card chart items with title and value"
+msgstr ""
+
+#: app/utils/schemas/utils/oneofschema.py:200
+#, python-format
+msgid "Unknown object class: %s"
+msgstr "Classe d'objet inconnue : %s"
+
+#: app/utils/schemas/utils/oneofschema.py:205
+#, python-format
+msgid "Unsupported object type: %s"
+msgstr "Type d'objet non pris en charge : %s"
+
+#: app/utils/schemas/utils/oneofschema.py:258
+msgid "Missing data for required field."
+msgstr "Données manquantes pour le champ obligatoire."
+
+#: app/utils/schemas/utils/oneofschema.py:265
+#, python-format
+msgid "Invalid value: %s"
+msgstr "Valeur invalide : %s"
+
+#: app/utils/schemas/utils/oneofschema.py:268
+#, python-format
+msgid "Unsupported value: %s"
+msgstr "valeur non prise en charge : %s"
+
+#: app/utils/schemas/utils/queries.py:21
+#, fuzzy
+msgid "Search"
+msgstr "recherche par nom"
+
+#: app/utils/schemas/utils/queries.py:22
+msgid ""
+"Filter results by a search term. Typically used for text search in names "
+"or other fields."
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:32
+#, fuzzy
+msgid "From Date"
+msgstr "date de début"
+
+#: app/utils/schemas/utils/queries.py:33
+msgid ""
+"Start date for the query range. Results will include records from this "
+"date onward."
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:43
+#, fuzzy
+msgid "To Date"
+msgstr "date de début"
+
+#: app/utils/schemas/utils/queries.py:44
+msgid ""
+"End date for the query range. Results will include records up to this "
+"date."
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:54
+#, fuzzy
+msgid "Order By"
+msgstr "numéro de commande"
+
+#: app/utils/schemas/utils/queries.py:55
+msgid "Field by which to sort the results. Defaults to 'id'."
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:63
+msgid "Ascending"
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:64
+msgid ""
+"Boolean indicating whether to sort in ascending order. Default is "
+"descending order."
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:74
+#, fuzzy
+msgid "Page Number"
+msgstr "numéro de page"
+
+#: app/utils/schemas/utils/queries.py:75
+msgid "Page number for pagination. Defaults to 1."
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:83
+msgid "Items Per Page"
+msgstr ""
+
+#: app/utils/schemas/utils/queries.py:84
+msgid ""
+"Number of items per page. If None, pagination is not applied. If 0, "
+"returns all items without pagination."
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:41
+msgid "Number of Units"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:41
+msgid "Number of instances to add"
+msgstr "Nombre d'instances à ajouter"
+
+#: app/utils/schemas/utils/utils.py:46
+msgid "Quantity Per Unit"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:46
+#, fuzzy
+msgid "Quantity of the new item per instance"
+msgstr "La quantité d'article utilisée"
+
+#: app/utils/schemas/utils/utils.py:47
+msgid "Item quantity is required"
+msgstr "La quantité d'articles est requise"
+
+#: app/utils/schemas/utils/utils.py:53
+#, fuzzy
+msgid "Location Description"
+msgstr "description de l'emplacement"
+
+#: app/utils/schemas/utils/utils.py:53
+#, fuzzy
+msgid "Location where the item is stored"
+msgstr "L'emplacement où l'élément donné est stocké"
+
+#: app/utils/schemas/utils/utils.py:67
+#, fuzzy
+msgid "unit"
+msgstr "compter"
+
+#: app/utils/schemas/utils/utils.py:67
+msgid "The unit with which this item will be counted"
+msgstr "L'unité avec laquelle cet article sera compté"
+
+#: app/utils/schemas/utils/utils.py:103
+msgid "message"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:103
+msgid "Message"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:122
+msgid "observation"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:122
+msgid "The observation associated with the given action"
+msgstr "L'observation associée à l'action donnée"
+
+#: app/utils/schemas/utils/utils.py:132
+#, fuzzy
+msgid "tags"
+msgstr "statut par nom"
+
+#: app/utils/schemas/utils/utils.py:132
+msgid "filter by tags"
+msgstr "filtrer par balises"
+
+#: app/utils/schemas/utils/utils.py:139
+msgid "This schema represents Suggestions Model"
+msgstr "Ce schéma représente le modèle de suggestions"
+
+#: app/utils/schemas/utils/utils.py:142
+msgid "Unique Id of Plant"
+msgstr "Identifiant unique de l'usine"
+
+#: app/utils/schemas/utils/utils.py:148
+msgid "suggestion"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:148
+msgid "Suggestion of the entity"
+msgstr "Suggestion de l'entité"
+
+#: app/utils/schemas/utils/utils.py:162
+msgid "This schema represents Suggestions of Tree Model"
+msgstr "Ce schéma représente des suggestions de modèle d'arbre"
+
+#: app/utils/schemas/utils/utils.py:165
+msgid "Name of Tree"
+msgstr "Nom de l'arbre"
+
+#: app/utils/schemas/utils/utils.py:169
+msgid "key"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:169
+msgid "Key of Tree"
+msgstr "Clé de l'arbre"
+
+#: app/utils/schemas/utils/utils.py:173
+msgid "Value of Tree"
+msgstr "Valeur de l'arbre"
+
+#: app/utils/schemas/utils/utils.py:189
+msgid "ids"
+msgstr ""
+
+#: app/utils/schemas/utils/utils.py:189
+msgid "List of ids"
+msgstr "Liste des identifiants"
+
+#: app/utils/schemas/utils/utils.py:292
+msgid "The instance we are taking this item from"
+msgstr "l'instance d'où nous récupérons cet élément"
+
+#: app/utils/schemas/utils/utils.py:293
+msgid "You must specify where you took the item from"
+msgstr "Vous devez préciser d'où vous avez pris l'article"
+
+#: app/utils/schemas/utils/utils.py:299
+msgid "You must specify the quantity used"
+msgstr "Vous devez préciser la quantité utilisée"
+
+#~ msgid ""
+#~ "Number of items per page. If None,"
+#~ " return no pagination; If 0, return"
+#~ " pagination with all items"
+#~ msgstr ""
+
+#~ msgid "The date and time when the action was performed"
+#~ msgstr "la date et l'heure auxquelles l'action a été effectuée"
+
+#~ msgid "name of the Client"
+#~ msgstr "nom du Client"
+
+#~ msgid "email of the client"
+#~ msgstr "email du client"
+
+#~ msgid "Company of the client"
+#~ msgstr "Société du client"
+
+#~ msgid "phone of the client"
+#~ msgstr "téléphone du client"
+
+#~ msgid "Address of client"
+#~ msgstr "Adresse du client"
+
+#~ msgid "Stars rating of the Client"
+#~ msgstr "Note en étoiles du Client"
+
+#~ msgid "Quantity of the given item in the inventory"
+#~ msgstr "Quantité de l'article donné dans l'inventaire"
+
+#~ msgid "The quantity to move"
+#~ msgstr "La quantité à déplacer"
+
+#~ msgid "The unit to move"
+#~ msgstr "L'unité à déplacer"
+
+#~ msgid "You should specify the quantity to use"
+#~ msgstr "Vous devez préciser la quantité à utiliser"
+
+#~ msgid "name of the Supplier"
+#~ msgstr "nom du Fournisseur"
+
+#~ msgid "email of the Supplier"
+#~ msgstr "email du Fournisseur"
+
+#~ msgid "phone of the Supplier"
+#~ msgstr "téléphone du fournisseur"
+
+#~ msgid "Address of the Supplier"
+#~ msgstr "Adresse du Fournisseur"
+
+#~ msgid "Stars rating of the Supplier"
+#~ msgstr "Note en étoiles du Fournisseur"
+
+#~ msgid "Quantity of the new item in the inventory (per instance)"
+#~ msgstr "Quantité du nouvel article en stock (par instance)"
+
+#~ msgid "Title of the notification"
+#~ msgstr "Titre de la notification"
+
+#~ msgid "default_unit"
+#~ msgstr ""
+
+#~ msgid "is_infinite"
+#~ msgstr ""
+
+#~ msgid "Id of the Client"
+#~ msgstr "Identifiant du client"
+
+#~ msgid "status by name"
+#~ msgstr "statut par nom"
+
+#~ msgid "client_id by name"
+#~ msgstr "client_id par nom"
+
+#~ msgid "end date"
+#~ msgstr ""
+
+#~ msgid "The name of the ingredient"
+#~ msgstr "Le nom de l'ingrédient"
+
+#~ msgid "The density of ingredient used"
+#~ msgstr "La densité de l'ingrédient utilisé"
+
+#~ msgid "The date and time when the potion was created"
+#~ msgstr "la date et l'heure de création de la potion"
+

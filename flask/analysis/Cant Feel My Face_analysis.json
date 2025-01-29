@@ -1,0 +1,100 @@
+{
+    "track_name": "Can't Feel My Face",
+    "audio_file": "uploads/Cant Feel My Face.mp3",
+    "timestamp": "2024-12-04T08:53:04.489023",
+    "analysis": {
+        "duration": 218.44172916666668,
+        "technical_features": {
+            "duration_ms": 218441,
+            "tempo": 108.17307692307692,
+            "energy": 0.5249140501011019,
+            "loudness": -12.833284378051758,
+            "key": 9,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.7243235111236572,
+            "instrumentalness": 0.45797890424728394,
+            "speechiness": 0.32398435297791883,
+            "danceability": 0.7315067887257293,
+            "valence": 0.6792588080197913,
+            "liveness": 0.6792588080197913,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 533.48193359375,
+                "min": 152.3801727294922,
+                "max": 3940.27197265625
+            },
+            "intensity": {
+                "mean": 0.22821059823036194,
+                "min": 0.0,
+                "max": 0.534842848777771
+            },
+            "harmonicity": {
+                "mean": 0.02811942994594574,
+                "min": 2.8412712183012445e-08,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.6792588080197913,
+            "arousal": 0.5741083832501964,
+            "energy": 0.5249140501011019,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "party",
+                    "distance": 0.0514735042712554,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.08562652091156363,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.08915568978010797,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                },
+                {
+                    "mood": "epic",
+                    "distance": 0.10215551937107296,
+                    "quadrant": 2,
+                    "valence": 0.7190000000000001,
+                    "arousal": 0.48
+                },
+                {
+                    "mood": "fun",
+                    "distance": 0.16802893482148595,
+                    "quadrant": 1,
+                    "valence": 0.837,
+                    "arousal": 0.632
+                }
+            ],
+            "primary_mood": "party",
+            "confidence": 0.924581428345691,
+            "mood_tags": [
+                "party",
+                "energetic",
+                "upbeat"
+            ]
+        }
+    }
+}

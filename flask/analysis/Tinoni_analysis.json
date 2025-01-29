@@ -1,0 +1,100 @@
+{
+    "track_name": "Tinoni",
+    "audio_file": "uploads/Tinoni.mp3",
+    "timestamp": "2024-12-04T08:35:37.917499",
+    "analysis": {
+        "duration": 162.96533333333332,
+        "technical_features": {
+            "duration_ms": 162965,
+            "tempo": 119.68085106382979,
+            "energy": 0.49612268936403153,
+            "loudness": -10.77854061126709,
+            "key": 1,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.7443839907646179,
+            "instrumentalness": 0.5038203001022339,
+            "speechiness": 0.3725673329811444,
+            "danceability": 0.7630392404540557,
+            "valence": 0.6002050781752171,
+            "liveness": 0.6002050781752171,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 545.7752685546875,
+                "min": 152.44021606445312,
+                "max": 3995.86572265625
+            },
+            "intensity": {
+                "mean": 0.2891165614128113,
+                "min": 0.0,
+                "max": 0.7417614459991455
+            },
+            "harmonicity": {
+                "mean": 0.0012580050388351083,
+                "min": 5.425017324256487e-09,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.6002050781752171,
+            "arousal": 0.5903962869932348,
+            "energy": 0.49612268936403153,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "emotional",
+                    "distance": 0.10661928674889372,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                },
+                {
+                    "mood": "dramatic",
+                    "distance": 0.10784041205623518,
+                    "quadrant": 2,
+                    "valence": 0.517,
+                    "arousal": 0.659
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.11910304076442076,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.15043641024420742,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.1580156735064323,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                }
+            ],
+            "primary_mood": "emotional",
+            "confidence": 0.8888124201434835,
+            "mood_tags": [
+                "emotional",
+                "dramatic",
+                "party"
+            ]
+        }
+    }
+}

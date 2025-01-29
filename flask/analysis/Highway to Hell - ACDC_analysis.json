@@ -1,0 +1,114 @@
+{
+    "track_name": "Highway to Hell - AC/DC",
+    "audio_file": "uploads/Highway to Hell - ACDC.mp3",
+    "analysis": {
+        "technical_features": {
+            "duration_ms": 207040,
+            "tempo": 114.79591836734694,
+            "energy": 0.5130034140631083,
+            "loudness": -15.458124160766602,
+            "key": 9,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.734130859375,
+            "instrumentalness": 0.8430185317993164,
+            "speechiness": 0.4604851424242674,
+            "danceability": 0.7500466821105041,
+            "valence": 0.672069004197783,
+            "spotify_audio_features": {
+                "acousticness": 0.734130859375,
+                "danceability": 0.7500466821105041,
+                "duration_ms": 207040,
+                "energy": 0.5130034140631083,
+                "instrumentalness": 0.8430185317993164,
+                "key": 9,
+                "liveness": 0.37059463571813844,
+                "loudness": -15.458124160766602,
+                "mode": 1,
+                "speechiness": 0.4604851424242674,
+                "tempo": 114.79591836734694,
+                "time_signature": 12,
+                "valence": 0.672069004197783,
+                "type": "audio_features",
+                "analysis_url": null,
+                "track_href": null,
+                "uri": null,
+                "id": null
+            },
+            "voice_features": {
+                "has_voice": true,
+                "voice_type": "female",
+                "pitch_stats": {
+                    "mean": 979.9519653320312,
+                    "min": 152.44158935546875,
+                    "max": 3995.22705078125
+                },
+                "intensity": {
+                    "mean": 0.1686917394399643,
+                    "min": 1.0491724812067629e-13,
+                    "max": 0.3787503242492676
+                },
+                "harmonicity": {
+                    "mean": 0.00028042381745763123,
+                    "min": 4.3745532707362145e-07,
+                    "max": 1.0000007152557373
+                },
+                "detected_language": null,
+                "transcribed_text": null
+            }
+        },
+        "mood_scores": {
+            "valence": 0.672069004197783,
+            "arousal": 0.580335927156993,
+            "energy": 0.5130034140631083,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "party",
+                    "distance": 0.053618628308139946,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.08996238806074137,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.09778263872309394,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                },
+                {
+                    "mood": "epic",
+                    "distance": 0.11076920440917287,
+                    "quadrant": 2,
+                    "valence": 0.7190000000000001,
+                    "arousal": 0.48
+                },
+                {
+                    "mood": "emotional",
+                    "distance": 0.16816535305285563,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                }
+            ],
+            "primary_mood": "party",
+            "confidence": 0.9195454483026749,
+            "mood_tags": [
+                "party",
+                "energetic",
+                "upbeat"
+            ]
+        },
+        "duration": 207.04072916666667
+    },
+    "timestamp": "2024-12-04T05:53:40.938950"
+}

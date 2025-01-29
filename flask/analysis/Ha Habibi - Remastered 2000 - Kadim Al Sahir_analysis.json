@@ -1,0 +1,114 @@
+{
+    "track_name": "Ha Habibi - Remastered 2000 - Kadim Al Sahir",
+    "audio_file": "uploads/Ha Habibi - Remastered 2000 - Kadim Al Sahir.mp3",
+    "analysis": {
+        "technical_features": {
+            "duration_ms": 243200,
+            "tempo": 148.02631578947367,
+            "energy": 0.9003648161888123,
+            "loudness": -20.91162872314453,
+            "key": 10,
+            "mode": 0,
+            "time_signature": 12,
+            "acousticness": 0.7588743567466736,
+            "instrumentalness": 0.4700130522251129,
+            "speechiness": 0.95,
+            "danceability": 0.8059865832328796,
+            "valence": 0.7973837578296662,
+            "spotify_audio_features": {
+                "acousticness": 0.7588743567466736,
+                "danceability": 0.8059865832328796,
+                "duration_ms": 243200,
+                "energy": 0.9003648161888123,
+                "instrumentalness": 0.4700130522251129,
+                "key": 10,
+                "liveness": 0.7522136688232421,
+                "loudness": -20.91162872314453,
+                "mode": 0,
+                "speechiness": 0.95,
+                "tempo": 148.02631578947367,
+                "time_signature": 12,
+                "valence": 0.7973837578296662,
+                "type": "audio_features",
+                "analysis_url": null,
+                "track_href": null,
+                "uri": null,
+                "id": null
+            },
+            "voice_features": {
+                "has_voice": true,
+                "voice_type": "female",
+                "pitch_stats": {
+                    "mean": 413.3443298339844,
+                    "min": 152.353271484375,
+                    "max": 3968.861328125
+                },
+                "intensity": {
+                    "mean": 0.09003648161888123,
+                    "min": 3.528578963596374e-05,
+                    "max": 0.2903328537940979
+                },
+                "harmonicity": {
+                    "mean": 0.0005145908799022436,
+                    "min": 3.1036944392326404e-07,
+                    "max": 0.05651886388659477
+                },
+                "detected_language": null,
+                "transcribed_text": null
+            }
+        },
+        "mood_scores": {
+            "valence": 0.7973837578296662,
+            "arousal": 0.8030470348659313,
+            "energy": 0.9003648161888123,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "fun",
+                    "distance": 0.17557486944356715,
+                    "quadrant": 1,
+                    "valence": 0.837,
+                    "arousal": 0.632
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.19722577307992287,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "happy",
+                    "distance": 0.2041675770201837,
+                    "quadrant": 1,
+                    "valence": 0.8470000000000001,
+                    "arousal": 0.605
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.21058282650100157,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "dramatic",
+                    "distance": 0.31522150927300585,
+                    "quadrant": 2,
+                    "valence": 0.517,
+                    "arousal": 0.659
+                }
+            ],
+            "primary_mood": "fun",
+            "confidence": 0.8076772601521087,
+            "mood_tags": [
+                "fun",
+                "energetic",
+                "happy"
+            ]
+        },
+        "duration": 243.2
+    },
+    "timestamp": "2024-12-04T03:24:14.036286"
+}

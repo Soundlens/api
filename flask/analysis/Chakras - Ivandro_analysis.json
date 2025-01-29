@@ -1,0 +1,100 @@
+{
+    "track_name": "Chakras - Ivandro",
+    "audio_file": "uploads/Chakras - Ivandro.mp3",
+    "timestamp": "2024-12-04T10:04:39.264964",
+    "analysis": {
+        "duration": 197.48572916666666,
+        "technical_features": {
+            "duration_ms": 197485,
+            "tempo": 100.44642857142857,
+            "energy": 0.5139502104620246,
+            "loudness": -12.994599342346191,
+            "key": 10,
+            "mode": 0,
+            "time_signature": 12,
+            "acousticness": 0.7566905617713928,
+            "instrumentalness": 0.3813454210758209,
+            "speechiness": 0.28382435480533597,
+            "danceability": 0.7219873164352373,
+            "valence": 0.48346852553497943,
+            "liveness": 0.48346852553497943,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 502.5539245605469,
+                "min": 152.43251037597656,
+                "max": 3241.672119140625
+            },
+            "intensity": {
+                "mean": 0.2240113615989685,
+                "min": 0.0,
+                "max": 0.5546261668205261
+            },
+            "harmonicity": {
+                "mean": 0.006379846949130297,
+                "min": 1.8697098980169358e-08,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.48346852553497943,
+            "arousal": 0.5553763914531866,
+            "energy": 0.5139502104620246,
+            "quadrant": 2,
+            "quadrant_description": "Low Valence, High Arousal (Aggressive, Intense)",
+            "closest_moods": [
+                {
+                    "mood": "emotional",
+                    "distance": 0.03611700103262583,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                },
+                {
+                    "mood": "dramatic",
+                    "distance": 0.10891378254409102,
+                    "quadrant": 2,
+                    "valence": 0.517,
+                    "arousal": 0.659
+                },
+                {
+                    "mood": "dark",
+                    "distance": 0.14841779278201278,
+                    "quadrant": 3,
+                    "valence": 0.508,
+                    "arousal": 0.409
+                },
+                {
+                    "mood": "melancholic",
+                    "distance": 0.1795950860297505,
+                    "quadrant": 3,
+                    "valence": 0.374,
+                    "arousal": 0.413
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.2390843527139406,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                }
+            ],
+            "primary_mood": "emotional",
+            "confidence": 0.9021838078804234,
+            "mood_tags": [
+                "emotional",
+                "dramatic",
+                "dark"
+            ]
+        }
+    }
+}

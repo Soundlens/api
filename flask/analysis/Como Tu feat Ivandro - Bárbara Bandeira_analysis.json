@@ -1,0 +1,114 @@
+{
+    "track_name": "Como Tu (feat. Ivandro) - B\u00e1rbara Bandeira",
+    "audio_file": "uploads/Como Tu feat Ivandro - B\u00e1rbara Bandeira.mp3",
+    "analysis": {
+        "technical_features": {
+            "duration_ms": 209606,
+            "tempo": 125.0,
+            "energy": 0.95,
+            "loudness": -14.469193458557129,
+            "key": 4,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.7529793381690979,
+            "instrumentalness": 0.38328051567077637,
+            "speechiness": 0.95,
+            "danceability": 0.95,
+            "valence": 0.95,
+            "spotify_audio_features": {
+                "acousticness": 0.7529793381690979,
+                "danceability": 0.95,
+                "duration_ms": 209606,
+                "energy": 0.95,
+                "instrumentalness": 0.38328051567077637,
+                "key": 4,
+                "liveness": 0.8166877937316894,
+                "loudness": -14.469193458557129,
+                "mode": 1,
+                "speechiness": 0.95,
+                "tempo": 125.0,
+                "time_signature": 12,
+                "valence": 0.95,
+                "type": "audio_features",
+                "analysis_url": null,
+                "track_href": null,
+                "uri": null,
+                "id": null
+            },
+            "voice_features": {
+                "has_voice": true,
+                "voice_type": "female",
+                "pitch_stats": {
+                    "mean": 440.4513244628906,
+                    "min": 152.48751831054688,
+                    "max": 3983.449462890625
+                },
+                "intensity": {
+                    "mean": 0.18903417885303497,
+                    "min": 1.0861370469683607e-07,
+                    "max": 0.41260769963264465
+                },
+                "harmonicity": {
+                    "mean": 0.006078165024518967,
+                    "min": 7.955284431204745e-09,
+                    "max": 1.0000007152557373
+                },
+                "detected_language": null,
+                "transcribed_text": null
+            }
+        },
+        "mood_scores": {
+            "valence": 0.95,
+            "arousal": 0.8209616939226786,
+            "energy": 0.95,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "fun",
+                    "distance": 0.22017157348333607,
+                    "quadrant": 1,
+                    "valence": 0.837,
+                    "arousal": 0.632
+                },
+                {
+                    "mood": "happy",
+                    "distance": 0.2392664900105167,
+                    "quadrant": 1,
+                    "valence": 0.8470000000000001,
+                    "arousal": 0.605
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.2859262777408294,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.31492329713505895,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.4048602179375964,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                }
+            ],
+            "primary_mood": "fun",
+            "confidence": 0.7515452195884392,
+            "mood_tags": [
+                "fun",
+                "happy",
+                "energetic"
+            ]
+        },
+        "duration": 209.60654166666666
+    },
+    "timestamp": "2024-12-03T17:36:43.063525"
+}

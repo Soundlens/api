@@ -1,0 +1,114 @@
+{
+    "track_name": "Taste (feat. Offset) - Tyga",
+    "audio_file": "uploads/Taste feat Offset - Tyga.mp3",
+    "analysis": {
+        "technical_features": {
+            "duration_ms": 232489,
+            "tempo": 98.6842105263158,
+            "energy": 0.95,
+            "loudness": -9.85951042175293,
+            "key": 5,
+            "mode": 0,
+            "time_signature": 12,
+            "acousticness": 0.7557278275489807,
+            "instrumentalness": 0.2427886426448822,
+            "speechiness": 0.95,
+            "danceability": 0.95,
+            "valence": 0.95,
+            "spotify_audio_features": {
+                "acousticness": 0.7557278275489807,
+                "danceability": 0.95,
+                "duration_ms": 232489,
+                "energy": 0.95,
+                "instrumentalness": 0.2427886426448822,
+                "key": 5,
+                "liveness": 0.8728845429420471,
+                "loudness": -9.85951042175293,
+                "mode": 0,
+                "speechiness": 0.95,
+                "tempo": 98.6842105263158,
+                "time_signature": 12,
+                "valence": 0.95,
+                "type": "audio_features",
+                "analysis_url": null,
+                "track_href": null,
+                "uri": null,
+                "id": null
+            },
+            "voice_features": {
+                "has_voice": true,
+                "voice_type": "female",
+                "pitch_stats": {
+                    "mean": 439.74755859375,
+                    "min": 152.34713745117188,
+                    "max": 3987.072265625
+                },
+                "intensity": {
+                    "mean": 0.32138416171073914,
+                    "min": 0.0,
+                    "max": 0.5854951739311218
+                },
+                "harmonicity": {
+                    "mean": 0.005942407995462418,
+                    "min": 4.344099746589336e-09,
+                    "max": 1.0000007152557373
+                },
+                "detected_language": null,
+                "transcribed_text": null
+            }
+        },
+        "mood_scores": {
+            "valence": 0.95,
+            "arousal": 0.8072739697339242,
+            "energy": 0.95,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "fun",
+                    "distance": 0.20854247640777782,
+                    "quadrant": 1,
+                    "valence": 0.837,
+                    "arousal": 0.632
+                },
+                {
+                    "mood": "happy",
+                    "distance": 0.22698845528334796,
+                    "quadrant": 1,
+                    "valence": 0.8470000000000001,
+                    "arousal": 0.605
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.2759819181297594,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.3058334759530371,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.3938193443595519,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                }
+            ],
+            "primary_mood": "fun",
+            "confidence": 0.7628290500597049,
+            "mood_tags": [
+                "fun",
+                "happy",
+                "energetic"
+            ]
+        },
+        "duration": 232.4898125
+    },
+    "timestamp": "2024-12-03T17:44:22.955500"
+}

@@ -1,0 +1,114 @@
+{
+    "track_name": "Ayo Technology - 50 Cent",
+    "audio_file": "uploads/Ayo Technology - 50 Cent.mp3",
+    "analysis": {
+        "technical_features": {
+            "duration_ms": 248790,
+            "tempo": 70.3125,
+            "energy": 0.95,
+            "loudness": -15.536399841308594,
+            "key": 3,
+            "mode": 0,
+            "time_signature": 12,
+            "acousticness": 0.6500436663627625,
+            "instrumentalness": 0.7456430792808533,
+            "speechiness": 0.95,
+            "danceability": 0.8219126462936401,
+            "valence": 0.95,
+            "spotify_audio_features": {
+                "acousticness": 0.6500436663627625,
+                "danceability": 0.8219126462936401,
+                "duration_ms": 248790,
+                "energy": 0.95,
+                "instrumentalness": 0.7456430792808533,
+                "key": 3,
+                "liveness": 0.6717427682876587,
+                "loudness": -15.536399841308594,
+                "mode": 0,
+                "speechiness": 0.95,
+                "tempo": 70.3125,
+                "time_signature": 12,
+                "valence": 0.95,
+                "type": "audio_features",
+                "analysis_url": null,
+                "track_href": null,
+                "uri": null,
+                "id": null
+            },
+            "voice_features": {
+                "has_voice": true,
+                "voice_type": "female",
+                "pitch_stats": {
+                    "mean": 550.3452758789062,
+                    "min": 152.3487548828125,
+                    "max": 3963.948974609375
+                },
+                "intensity": {
+                    "mean": 0.16717833280563354,
+                    "min": 0.0,
+                    "max": 0.5602991580963135
+                },
+                "harmonicity": {
+                    "mean": 0.006984655745327473,
+                    "min": 2.582216040991625e-07,
+                    "max": 1.0000007152557373
+                },
+                "detected_language": null,
+                "transcribed_text": null
+            }
+        },
+        "mood_scores": {
+            "valence": 0.95,
+            "arousal": 0.7481556256612142,
+            "energy": 0.95,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "fun",
+                    "distance": 0.1620528598104585,
+                    "quadrant": 1,
+                    "valence": 0.837,
+                    "arousal": 0.632
+                },
+                {
+                    "mood": "happy",
+                    "distance": 0.17635910285112494,
+                    "quadrant": 1,
+                    "valence": 0.8470000000000001,
+                    "arousal": 0.605
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.2373520105283322,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.27104907194913325,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "relaxing",
+                    "distance": 0.34499465704732457,
+                    "quadrant": 4,
+                    "valence": 0.819,
+                    "arousal": 0.429
+                }
+            ],
+            "primary_mood": "fun",
+            "confidence": 0.8080786756033614,
+            "mood_tags": [
+                "fun",
+                "happy",
+                "energetic"
+            ]
+        },
+        "duration": 248.79020833333334
+    },
+    "timestamp": "2024-12-04T03:21:11.133286"
+}

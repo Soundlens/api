@@ -1,0 +1,41 @@
+{
+    "track_name": "EUROPA (feat. Gson)",
+    "audio_file": "uploads/EUROPA feat Gson.mp3",
+    "timestamp": "2024-12-04T08:14:37.077810",
+    "analysis": {
+        "duration": 256.16254166666664,
+        "technical_features": {},
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 455.3910217285156,
+                "min": 152.3681640625,
+                "max": 3982.1513671875
+            },
+            "intensity": {
+                "mean": 0.25710809230804443,
+                "min": 0.0,
+                "max": 0.6526769399642944
+            },
+            "harmonicity": {
+                "mean": 0.013419132679700851,
+                "min": 9.108176990402228e-10,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.5,
+            "arousal": 0.5,
+            "energy": 0.5,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [],
+            "primary_mood": "unknown",
+            "confidence": 0.0,
+            "mood_tags": []
+        }
+    }
+}

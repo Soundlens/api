@@ -1,0 +1,100 @@
+{
+    "track_name": "Trust Issues - Drake",
+    "audio_file": "uploads/Trust Issues - Drake.mp3",
+    "timestamp": "2024-12-04T09:58:53.807587",
+    "analysis": {
+        "duration": 280.6944375,
+        "technical_features": {
+            "duration_ms": 280694,
+            "tempo": 73.05194805194805,
+            "energy": 0.40718758415007383,
+            "loudness": -24.95714569091797,
+            "key": 1,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.7797366380691528,
+            "instrumentalness": 0.4284970462322235,
+            "speechiness": 0.30695926924754935,
+            "danceability": 0.6758216093358012,
+            "valence": 0.8011431128957722,
+            "liveness": 0.8011431128957722,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 369.73065185546875,
+                "min": 152.50991821289062,
+                "max": 3961.723388671875
+            },
+            "intensity": {
+                "mean": 0.056512266397476196,
+                "min": 0.0,
+                "max": 0.3305416703224182
+            },
+            "harmonicity": {
+                "mean": 0.00808302778750658,
+                "min": 1.0811048944958657e-08,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.8011431128957722,
+            "arousal": 0.43089778860422795,
+            "energy": 0.40718758415007383,
+            "quadrant": 4,
+            "quadrant_description": "High Valence, Low Arousal (Peaceful, Relaxing)",
+            "closest_moods": [
+                {
+                    "mood": "relaxing",
+                    "distance": 0.017957450226562567,
+                    "quadrant": 4,
+                    "valence": 0.819,
+                    "arousal": 0.429
+                },
+                {
+                    "mood": "epic",
+                    "distance": 0.09570014712717348,
+                    "quadrant": 2,
+                    "valence": 0.7190000000000001,
+                    "arousal": 0.48
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.10643026995464648,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                },
+                {
+                    "mood": "cool",
+                    "distance": 0.1480577677530235,
+                    "quadrant": 4,
+                    "valence": 0.682,
+                    "arousal": 0.343
+                },
+                {
+                    "mood": "soft",
+                    "distance": 0.15450649534437114,
+                    "quadrant": 4,
+                    "valence": 0.713,
+                    "arousal": 0.304
+                }
+            ],
+            "primary_mood": "relaxing",
+            "confidence": 0.9266373775638725,
+            "mood_tags": [
+                "relaxing",
+                "epic",
+                "upbeat"
+            ]
+        }
+    }
+}

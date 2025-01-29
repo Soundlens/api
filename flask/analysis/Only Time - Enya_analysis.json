@@ -1,0 +1,114 @@
+{
+    "track_name": "Only Time - Enya",
+    "audio_file": "uploads/Only Time - Enya.mp3",
+    "analysis": {
+        "technical_features": {
+            "duration_ms": 215765,
+            "tempo": 82.72058823529412,
+            "energy": 0.95,
+            "loudness": -16.287500381469727,
+            "key": 3,
+            "mode": 0,
+            "time_signature": 12,
+            "acousticness": 0.7688427567481995,
+            "instrumentalness": 0.2411593794822693,
+            "speechiness": 0.95,
+            "danceability": 0.5639391541481018,
+            "valence": 0.95,
+            "spotify_audio_features": {
+                "acousticness": 0.7688427567481995,
+                "danceability": 0.5639391541481018,
+                "duration_ms": 215765,
+                "energy": 0.95,
+                "instrumentalness": 0.2411593794822693,
+                "key": 3,
+                "liveness": 0.8735362482070923,
+                "loudness": -16.287500381469727,
+                "mode": 0,
+                "speechiness": 0.95,
+                "tempo": 82.72058823529412,
+                "time_signature": 12,
+                "valence": 0.95,
+                "type": "audio_features",
+                "analysis_url": null,
+                "track_href": null,
+                "uri": null,
+                "id": null
+            },
+            "voice_features": {
+                "has_voice": true,
+                "voice_type": "female",
+                "pitch_stats": {
+                    "mean": 292.2209777832031,
+                    "min": 152.3539276123047,
+                    "max": 2204.446533203125
+                },
+                "intensity": {
+                    "mean": 0.15332922339439392,
+                    "min": 2.9794352940371027e-06,
+                    "max": 0.3730102777481079
+                },
+                "harmonicity": {
+                    "mean": 5.539531775866635e-05,
+                    "min": 8.414374974563543e-08,
+                    "max": 0.08923140913248062
+                },
+                "detected_language": null,
+                "transcribed_text": null
+            }
+        },
+        "mood_scores": {
+            "valence": 0.95,
+            "arousal": 0.760536150371327,
+            "energy": 0.95,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "fun",
+                    "distance": 0.17114479820397813,
+                    "quadrant": 1,
+                    "valence": 0.837,
+                    "arousal": 0.632
+                },
+                {
+                    "mood": "happy",
+                    "distance": 0.1865489053099268,
+                    "quadrant": 1,
+                    "valence": 0.8470000000000001,
+                    "arousal": 0.605
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.24476546441158478,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.27765315984174227,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "relaxing",
+                    "distance": 0.356478918034488,
+                    "quadrant": 4,
+                    "valence": 0.819,
+                    "arousal": 0.429
+                }
+            ],
+            "primary_mood": "fun",
+            "confidence": 0.7991802773581701,
+            "mood_tags": [
+                "fun",
+                "happy",
+                "energetic"
+            ]
+        },
+        "duration": 215.76533333333333
+    },
+    "timestamp": "2024-12-04T04:15:30.709635"
+}

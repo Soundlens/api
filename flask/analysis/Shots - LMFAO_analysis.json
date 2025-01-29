@@ -1,0 +1,114 @@
+{
+    "track_name": "Shots - LMFAO",
+    "audio_file": "uploads/Shots - LMFAO.mp3",
+    "analysis": {
+        "technical_features": {
+            "duration_ms": 253051,
+            "tempo": 127.8409090909091,
+            "energy": 0.24316328763961792,
+            "loudness": -18.30263900756836,
+            "key": 7,
+            "mode": 0,
+            "time_signature": 12,
+            "acousticness": 0.6739494800567627,
+            "instrumentalness": 0.8740971088409424,
+            "speechiness": 0.501193864691561,
+            "danceability": 0.95,
+            "valence": 0.5871183782296996,
+            "spotify_audio_features": {
+                "acousticness": 0.6739494800567627,
+                "danceability": 0.95,
+                "duration_ms": 253051,
+                "energy": 0.24316328763961792,
+                "instrumentalness": 0.8740971088409424,
+                "key": 7,
+                "liveness": 0.1962591290473938,
+                "loudness": -18.30263900756836,
+                "mode": 0,
+                "speechiness": 0.501193864691561,
+                "tempo": 127.8409090909091,
+                "time_signature": 12,
+                "valence": 0.5871183782296996,
+                "type": "audio_features",
+                "analysis_url": null,
+                "track_href": null,
+                "uri": null,
+                "id": null
+            },
+            "voice_features": {
+                "has_voice": true,
+                "voice_type": "female",
+                "pitch_stats": {
+                    "mean": 792.7152709960938,
+                    "min": 152.3496551513672,
+                    "max": 3994.35107421875
+                },
+                "intensity": {
+                    "mean": 0.12158164381980896,
+                    "min": 0.0,
+                    "max": 0.2993257939815521
+                },
+                "harmonicity": {
+                    "mean": 0.027158230543136597,
+                    "min": 9.998818661927089e-09,
+                    "max": 1.0000007152557373
+                },
+                "detected_language": null,
+                "transcribed_text": null
+            }
+        },
+        "mood_scores": {
+            "valence": 0.5871183782296996,
+            "arousal": 0.48092484202377145,
+            "energy": 0.24316328763961792,
+            "quadrant": 4,
+            "quadrant_description": "High Valence, Low Arousal (Peaceful, Relaxing)",
+            "closest_moods": [
+                {
+                    "mood": "emotional",
+                    "distance": 0.09166612933148377,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                },
+                {
+                    "mood": "dark",
+                    "distance": 0.1069247430384674,
+                    "quadrant": 3,
+                    "valence": 0.508,
+                    "arousal": 0.409
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.12736406505470835,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                },
+                {
+                    "mood": "ballad",
+                    "distance": 0.129336540214848,
+                    "quadrant": 4,
+                    "valence": 0.633,
+                    "arousal": 0.36
+                },
+                {
+                    "mood": "epic",
+                    "distance": 0.13188486453544823,
+                    "quadrant": 2,
+                    "valence": 0.7190000000000001,
+                    "arousal": 0.48
+                }
+            ],
+            "primary_mood": "emotional",
+            "confidence": 0.8913483541917802,
+            "mood_tags": [
+                "emotional",
+                "dark",
+                "upbeat"
+            ]
+        },
+        "duration": 253.05108333333334
+    },
+    "timestamp": "2024-12-04T05:44:20.207760"
+}

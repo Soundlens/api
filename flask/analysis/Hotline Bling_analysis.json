@@ -1,0 +1,100 @@
+{
+    "track_name": "Hotline Bling",
+    "audio_file": "uploads/Hotline Bling.mp3",
+    "timestamp": "2024-12-04T08:48:26.181128",
+    "analysis": {
+        "duration": 295.53197916666664,
+        "technical_features": {
+            "duration_ms": 295531,
+            "tempo": 133.92857142857142,
+            "energy": 0.4624630558525731,
+            "loudness": -17.96469497680664,
+            "key": 4,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.7344225645065308,
+            "instrumentalness": 0.44009727239608765,
+            "speechiness": 0.3362353222069059,
+            "danceability": 0.7954291320062622,
+            "valence": 0.6470585889008142,
+            "liveness": 0.6470585889008142,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 513.1213989257812,
+                "min": 152.38429260253906,
+                "max": 3984.62158203125
+            },
+            "intensity": {
+                "mean": 0.12640529870986938,
+                "min": 2.1122169985288153e-11,
+                "max": 0.3888133466243744
+            },
+            "harmonicity": {
+                "mean": 0.00023307680385187268,
+                "min": 2.2485284745243916e-09,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.6470585889008142,
+            "arousal": 0.5611665731107398,
+            "energy": 0.4624630558525731,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "party",
+                    "distance": 0.08500619790894867,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.0962557393397064,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                },
+                {
+                    "mood": "epic",
+                    "distance": 0.10846003513498939,
+                    "quadrant": 2,
+                    "valence": 0.7190000000000001,
+                    "arousal": 0.48
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.12029886722753828,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "emotional",
+                    "distance": 0.13914966259644648,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                }
+            ],
+            "primary_mood": "party",
+            "confidence": 0.9034260092054518,
+            "mood_tags": [
+                "party",
+                "upbeat",
+                "epic"
+            ]
+        }
+    }
+}

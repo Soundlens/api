@@ -1,0 +1,100 @@
+{
+    "track_name": "Passionfruit",
+    "audio_file": "uploads/Passionfruit.mp3",
+    "timestamp": "2024-12-04T08:43:20.778789",
+    "analysis": {
+        "duration": 298.94079166666666,
+        "technical_features": {
+            "duration_ms": 298940,
+            "tempo": 112.5,
+            "energy": 0.4857579639846664,
+            "loudness": -14.285717010498047,
+            "key": 11,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.789137601852417,
+            "instrumentalness": 0.22379331290721893,
+            "speechiness": 0.23066127103962275,
+            "danceability": 0.7563526633274469,
+            "valence": 0.5747568290190599,
+            "liveness": 0.5747568290190599,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 288.76165771484375,
+                "min": 152.39501953125,
+                "max": 3983.727294921875
+            },
+            "intensity": {
+                "mean": 0.193069726228714,
+                "min": 0.006695813033729792,
+                "max": 0.5604300498962402
+            },
+            "harmonicity": {
+                "mean": 3.7939240428386256e-05,
+                "min": 2.7666444135654444e-10,
+                "max": 0.002538456814363599
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.5747568290190599,
+            "arousal": 0.5484704918207537,
+            "energy": 0.4857579639846664,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "emotional",
+                    "distance": 0.06584990772494027,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                },
+                {
+                    "mood": "dramatic",
+                    "distance": 0.12471015787289742,
+                    "quadrant": 2,
+                    "valence": 0.517,
+                    "arousal": 0.659
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.15025836785785052,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                },
+                {
+                    "mood": "dark",
+                    "distance": 0.15462371198947114,
+                    "quadrant": 3,
+                    "valence": 0.508,
+                    "arousal": 0.409
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.15512049631411634,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                }
+            ],
+            "primary_mood": "emotional",
+            "confidence": 0.8863938555147706,
+            "mood_tags": [
+                "emotional",
+                "dramatic",
+                "upbeat"
+            ]
+        }
+    }
+}

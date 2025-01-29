@@ -1,0 +1,100 @@
+{
+    "track_name": "TA TUDO BEM",
+    "audio_file": "uploads/TA TUDO BEM.mp3",
+    "timestamp": "2024-12-04T08:32:31.806585",
+    "analysis": {
+        "duration": 272.61389583333334,
+        "technical_features": {
+            "duration_ms": 272613,
+            "tempo": 170.45454545454547,
+            "energy": 0.4545853148855663,
+            "loudness": -13.64123249053955,
+            "key": 5,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.7409905195236206,
+            "instrumentalness": 0.42576757073402405,
+            "speechiness": 0.34408207544046104,
+            "danceability": 0.8527904118225271,
+            "valence": 0.6340027026719712,
+            "liveness": 0.6340027026719712,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 489.26910400390625,
+                "min": 152.354736328125,
+                "max": 3987.03125
+            },
+            "intensity": {
+                "mean": 0.20794016122817993,
+                "min": 0.0,
+                "max": 0.7458423972129822
+            },
+            "harmonicity": {
+                "mean": 0.000548307434655726,
+                "min": 3.0171265485989807e-10,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.6340027026719712,
+            "arousal": 0.622472046605873,
+            "energy": 0.4545853148855663,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "party",
+                    "distance": 0.0852348877595074,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "dramatic",
+                    "distance": 0.12257211677909956,
+                    "quadrant": 2,
+                    "valence": 0.517,
+                    "arousal": 0.659
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.12362801905934828,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "emotional",
+                    "distance": 0.1526920301838462,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.15304418487911955,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                }
+            ],
+            "primary_mood": "party",
+            "confidence": 0.8895216588006816,
+            "mood_tags": [
+                "party",
+                "dramatic",
+                "energetic"
+            ]
+        }
+    }
+}

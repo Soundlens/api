@@ -1,0 +1,58 @@
+version: "3.3"
+
+services:
+  soundlensmdb:
+    image: postgis/postgis:14-3.4-alpine
+    restart: always
+    container_name: soundlens-db
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DATABASE: soundlens
+    ports:
+      - "5449:5432"
+    expose:
+      - "5449"
+    networks:
+      - soundlens-network
+  redis:
+    image: redis:latest
+    container_name: redis-soundlens
+    restart: unless-stopped
+    ports:
+      - 6399:6379
+    networks:
+      - soundlens-network
+  flask:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      target: dev
+      tags:
+        - soundlens-img-dev:latest
+    volumes:
+      - ./flask:/var/www/html/
+      - ./common:/common/
+      
+    container_name: soundlens-api
+    restart: always
+    networks:
+      - soundlens-network
+    ports:
+      - "8059:5000"
+      - "8891:8889"
+    expose:
+      - 8059
+      - 8891
+    depends_on:
+      - soundlensmdb
+      - redis
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+networks:
+  soundlens-network:
+    driver: "bridge"
+    ipam:
+      config:
+        - subnet: 15.7.29.0/24

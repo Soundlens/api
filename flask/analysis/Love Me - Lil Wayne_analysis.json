@@ -1,0 +1,100 @@
+{
+    "track_name": "Love Me - Lil Wayne",
+    "audio_file": "uploads/Love Me - Lil Wayne.mp3",
+    "timestamp": "2024-12-04T09:35:05.229643",
+    "analysis": {
+        "duration": 264.90485416666667,
+        "technical_features": {
+            "duration_ms": 264904,
+            "tempo": 125.0,
+            "energy": 0.5306765123063922,
+            "loudness": -17.501480102539062,
+            "key": 3,
+            "mode": 0,
+            "time_signature": 12,
+            "acousticness": 0.6735750436782837,
+            "instrumentalness": 0.5286128520965576,
+            "speechiness": 0.36247428710464985,
+            "danceability": 0.7711688637267649,
+            "valence": 0.4849994952954224,
+            "liveness": 0.4849994952954224,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 659.9437255859375,
+                "min": 152.4827423095703,
+                "max": 3914.499267578125
+            },
+            "intensity": {
+                "mean": 0.13332943618297577,
+                "min": 0.0,
+                "max": 0.31746241450309753
+            },
+            "harmonicity": {
+                "mean": 0.031132953241467476,
+                "min": 2.2073212146977994e-09,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.4849994952954224,
+            "arousal": 0.5818451998724424,
+            "energy": 0.5306765123063922,
+            "quadrant": 2,
+            "quadrant_description": "Low Valence, High Arousal (Aggressive, Intense)",
+            "closest_moods": [
+                {
+                    "mood": "emotional",
+                    "distance": 0.056218948720306874,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                },
+                {
+                    "mood": "dramatic",
+                    "distance": 0.08352781263789358,
+                    "quadrant": 2,
+                    "valence": 0.517,
+                    "arousal": 0.659
+                },
+                {
+                    "mood": "dark",
+                    "distance": 0.1743688227167055,
+                    "quadrant": 3,
+                    "valence": 0.508,
+                    "arousal": 0.409
+                },
+                {
+                    "mood": "melancholic",
+                    "distance": 0.20206333035908208,
+                    "quadrant": 3,
+                    "valence": 0.374,
+                    "arousal": 0.413
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.2344638751754742,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                }
+            ],
+            "primary_mood": "emotional",
+            "confidence": 0.8952948053083647,
+            "mood_tags": [
+                "emotional",
+                "dramatic",
+                "dark"
+            ]
+        }
+    }
+}

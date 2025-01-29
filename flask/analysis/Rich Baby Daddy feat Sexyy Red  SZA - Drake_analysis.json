@@ -1,0 +1,100 @@
+{
+    "track_name": "Rich Baby Daddy (feat. Sexyy Red & SZA) - Drake",
+    "audio_file": "uploads/Rich Baby Daddy feat Sexyy Red  SZA - Drake.mp3",
+    "timestamp": "2024-12-04T09:28:57.098507",
+    "analysis": {
+        "duration": 319.286,
+        "technical_features": {
+            "duration_ms": 319286,
+            "tempo": 144.23076923076923,
+            "energy": 0.553648789610951,
+            "loudness": -9.317486763000488,
+            "key": 5,
+            "mode": 1,
+            "time_signature": 12,
+            "acousticness": 0.7033194899559021,
+            "instrumentalness": 0.45787420868873596,
+            "speechiness": 0.3308114345240403,
+            "danceability": 0.8049533924710114,
+            "valence": 0.5881456227599595,
+            "liveness": 0.5881456227599595,
+            "type": "audio_features",
+            "analysis_url": null,
+            "track_href": null,
+            "uri": null,
+            "id": null
+        },
+        "voice_features": {
+            "has_voice": true,
+            "voice_type": "female",
+            "pitch_stats": {
+                "mean": 619.2482299804688,
+                "min": 152.34835815429688,
+                "max": 3991.579345703125
+            },
+            "intensity": {
+                "mean": 0.34207841753959656,
+                "min": 0.0,
+                "max": 0.6793010234832764
+            },
+            "harmonicity": {
+                "mean": 0.0004585984570439905,
+                "min": 2.0410209078391972e-09,
+                "max": 1.0000007152557373
+            },
+            "detected_language": null,
+            "transcribed_text": null
+        },
+        "mood_scores": {
+            "valence": 0.5881456227599595,
+            "arousal": 0.6460062593227439,
+            "energy": 0.553648789610951,
+            "quadrant": 1,
+            "quadrant_description": "High Valence, High Arousal (Happy, Energetic)",
+            "closest_moods": [
+                {
+                    "mood": "dramatic",
+                    "distance": 0.07232245111091194,
+                    "quadrant": 2,
+                    "valence": 0.517,
+                    "arousal": 0.659
+                },
+                {
+                    "mood": "party",
+                    "distance": 0.13530201416130655,
+                    "quadrant": 1,
+                    "valence": 0.718,
+                    "arousal": 0.608
+                },
+                {
+                    "mood": "emotional",
+                    "distance": 0.1376549101041685,
+                    "quadrant": 1,
+                    "valence": 0.511,
+                    "arousal": 0.532
+                },
+                {
+                    "mood": "energetic",
+                    "distance": 0.17265066296872011,
+                    "quadrant": 1,
+                    "valence": 0.757,
+                    "arousal": 0.61
+                },
+                {
+                    "mood": "upbeat",
+                    "distance": 0.19889005048283,
+                    "quadrant": 4,
+                    "valence": 0.714,
+                    "arousal": 0.492
+                }
+            ],
+            "primary_mood": "dramatic",
+            "confidence": 0.8849068748745377,
+            "mood_tags": [
+                "dramatic",
+                "party",
+                "emotional"
+            ]
+        }
+    }
+}
