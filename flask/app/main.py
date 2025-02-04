@@ -141,7 +141,7 @@ def create_app(config_class=None):
 
     @app.before_request
     def before():
-        from app.api.history.services import EventService
+        # from app.api.history.services import EventService
 
         app.logger.info(f"Request: {request.method} {request.url}")
         set_logged_user(None)
